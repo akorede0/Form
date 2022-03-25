@@ -1,0 +1,26 @@
+form {
+    max-width: 600px;
+    background-color: goldenrod;
+    margin: 100px auto;
+    padding: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  form div input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid 4px red;
+    outline: 0;
+  }
+  form div input:focus {
+    border-color: blueviolet;
+  }
+.submit-style input {
+    width: 100px;
+    border-color: pink;
+    margin: 30px auto;
+    text-align: center;
+    border: 3px solid purple;
+}
